@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    table,th,tr,td{
+        border: solid 3px rgb(245, 248, 247); 
+        border-collapse:collapse ;
+        border:none;
+        padding:5px;
+    }
+</style>
+<body>
+    <h3>회원가입 양식</h3>
+    <form>
+        <table>
+            <tr>
+                <td>- 아이디:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>- 비밀번호:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>- 비밀번호 확인:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>- 이름:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>- 성별:</td>
+                <td>
+                    <input type="radio" name="gender" checked>여성
+                    <input type="radio" name="gender">남성
+                    <input type="checkbox" name="age">10~20대
+                    <input type="checkbox" name="age" che>30~40대
+                    <input type="checkbox" name="age">50~60대
+                    <input type="checkbox" name="age">70~80대
+                </td>
+            </tr>
+            <tr>
+                <td>- 전화번호:</td>
+                <td>
+                    <select>
+                        <option>선택</option>
+                        <option>02</option>
+                        <option>031</option>
+                        <option>032</option>
+                        <option>직접입력</option>
+                    </select>
+                    <input type="text">-<input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>- 생일:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>- 자기소개:</td>
+                <td><textarea rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>- 좋아하는 색깔:</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>- 좋아하는 날짜:</td>
+                <td><input type="month"></td>
+            </tr>
+            <tr>
+                <td>- 좋아하는 숫자:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>- 기상 시간:</td>
+                <td><input type="time"></td>
+            </tr>
+            <tr>
+                <td>- 이번 주 선택:</td>
+                <td><input type="week"></td>
+            </tr>
+            <tr>
+                <td>- 범위 선택:</td>
+                <td><input type="range"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">제출</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <a href="index.html">홈으로</a>
+</body>
+</html>
